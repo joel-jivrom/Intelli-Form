@@ -1,0 +1,56 @@
+.container-fluid {
+    background-color: #f4f8fb;
+    padding-left: 5vw;
+    padding-top: 8vw;
+    min-height: 100%;
+    padding-right: 5vw;
+}
+
+.card {
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: .125rem;
+    min-height: 25vw;
+    min-width: 15vw;
+}
+
+.card-body {
+    padding: 1rem !important;
+    min-height: 25vw;
+}
+
+.heading {
+    color: grey;
+    font-weight: 500;
+    font-size: 1.75rem;
+}
+
+.btn {
+    color: white;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 0.6rem;
+    padding-top: 0.6rem;
+}
+
+mat-form-field {
+    display: block;
+}
+
+label {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.radButton {
+    min-width: 6rem;
+    border: .1em solid grey;
+    top: 0.5em;
+}
+
+.subButton {
+    color: white;
+    background-color: grey
+}

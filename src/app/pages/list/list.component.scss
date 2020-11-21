@@ -1,0 +1,71 @@
+.container-fluid {
+    background-color: #f4f8fb;
+    padding-left: 5vw;
+    padding-top: 8vw;
+    min-height: 100%;
+    padding-right: 5vw;
+}
+
+.card {
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: .125rem;
+    max-height: 20rem;
+}
+
+.card-body {
+    padding: 1rem !important;
+    overflow: hidden;
+}
+
+table {
+    display: block;
+}
+
+.heading {
+    color: grey;
+    font-weight: 500;
+    font-size: 1.75rem;
+}
+
+.btn {
+    color: white;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 0.6rem;
+    padding-top: 0.6rem;
+}
+
+label {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: grey;
+    margin-bottom: 1.25rem;
+    margin-top: 1rem;
+    word-spacing: 2px;
+}
+
+thead {
+    border-top: 2px solid transparent !important;
+    color: grey;
+    opacity: .8;
+    font-weight: 100;
+    th {
+        padding-right: 25px;
+        font-weight: 600;
+    }
+}
+
+tbody {
+    color: grey;
+    border-top: 1px solid transparent !important;
+    th {
+        padding-right: 30px;
+        font-weight: 400;
+    }
+    td {
+        padding-right: 30px;
+    }
+}
