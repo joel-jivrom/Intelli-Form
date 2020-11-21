@@ -10,7 +10,7 @@
     border-radius: 1rem;
     border-style: solid;
     border-width: .125rem;
-    min-height: 25vw;
+    min-height: 25rem;
     min-width: 15vw;
 }
 
@@ -39,18 +39,24 @@ mat-form-field {
     display: block;
 }
 
-label {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-}
-
-.radButton {
-    min-width: 6rem;
+.radButtonDiv {
+    min-width: 8rem;
     border: .1em solid grey;
-    top: 0.5em;
+    padding: 0.5rem;
+    font-size: .95rem;
+    color: grey;
 }
 
 .subButton {
     color: white;
     background-color: grey
+}
+
+label {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: grey;
+    margin-bottom: 1.2rem;
+    margin-top: 1rem;
+    word-spacing: 2px;
 }

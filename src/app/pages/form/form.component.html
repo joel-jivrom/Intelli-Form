@@ -7,8 +7,9 @@
     <div class="row d-flex justify-content-center text-center">
         <div class="card" style="background-color: white;">
             <div class="card-body">
+                <label>Form</label>
                 <form [formGroup]="simpleForm" (ngSubmit)="submit()" class="form" #formDirective="ngForm">
-                    <mat-form-field class="form-element">
+                    <mat-form-field class="form-element" style="margin-bottom:0.5rem">
                         <input matInput placeholder="Name" formControlName="Name" required>
                         <mat-error *ngIf="!simpleForm.controls['Name'].valid && simpleForm.controls['Name'].touched">
                             {{getNameError()}}
@@ -16,11 +17,20 @@
                     </mat-form-field>
 
                     <mat-radio-group aria-label="Select an option" formControlName="Gender" required>
-                        <mat-radio-button value="Male" class="radButton">Male</mat-radio-button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <mat-radio-button value="Female" class="radButton">Female</mat-radio-button>
+                        <span class="radButtonDiv">
+                            <mat-radio-button value="Male" class="radButton">Male</mat-radio-button>
+                        </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="radButtonDiv">
+                            <mat-radio-button value="Female" class="radButton">Female</mat-radio-button>
+                        </span>
                     </mat-radio-group>
 
-                    <mat-form-field class="form-element" style="margin-top: 1rem;">
+                    <!-- <mat-radio-group aria-label="Select an option" formControlName="Gender" required>
+                        <mat-radio-button value="Male" class="radButton">Male</mat-radio-button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <mat-radio-button value="Female" class="radButton">Female</mat-radio-button>
+                    </mat-radio-group> -->
+
+                    <mat-form-field class="form-element" style="margin-top: 0.75rem;">
                         <input matInput placeholder="Email" formControlName="Email" required>
                         <mat-error *ngIf="!simpleForm.controls['Email'].valid && simpleForm.controls['Email'].touched">
                             {{getEmailError()}}
