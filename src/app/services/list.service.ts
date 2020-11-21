@@ -11,13 +11,7 @@ export class ListService {
   malePercent: any;
   femalePercent: any;
   constructor() { 
-    // this.male = this.genderCount(this.list);
-    // this.total = this.objectCount(this.list);
-    // this.female = this.total - this.male;
-    // this.malePercent = ((this.male/this.total)*100);
-    // this.femalePercent = ((this.female/this.total)*100);
-    // localStorage.setItem('Females', this.femalePercent);
-    // localStorage.setItem('Males', this.malePercent);
+    
   }
 
   loadList() {
